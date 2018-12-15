@@ -101,7 +101,7 @@ a:hover {
     text-decoration: none;
 }
 
-header a {
+a {
     font-family: 'Roboto', sans-serif;
     color: #5ad;
 }
@@ -123,17 +123,13 @@ main {
     color: #929292;
 }
 
-h1, h5, h6, .skill{
-    color: #000;
-}
-
-h6 {
-    font-family: "Open Sans", sans-serif;
-}
-
-h3, h4 {
+h3, h4, h6 {
     font-family: "Open Sans", sans-serif;
     color: #5ad;
+}
+
+h1, h5, h6, .skill{
+    color: #000;
 }
 
 /* ==========================================================================
