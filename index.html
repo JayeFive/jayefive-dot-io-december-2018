@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
+  <title>John Olson Professional Site</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -12,6 +12,9 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans|Roboto" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
@@ -22,10 +25,125 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <div class="container">
+    <header>
+      <div class="d-flex flex-row bg-light">
+        <div class="p-2 flex-grow-1"><a class="font-weight-bold" href="#">JayeFive.io</a></div>
+        <div class="p-2"><a href="../"><span class="d-none d-md-inline">Resume </span><i class="far fa-file-alt"></i></a></div>
+        <div class="p-2"><a href="#"><span class="d-none d-md-inline">LinkedIn </span><i class="fab fa-linkedin"></i></a></div>
+        <div class="p-2"><a href="#"><span class="d-none d-md-inline">Github </span><i class="fab fa-github"></i></a></div>
+        <div class="p-2"><a href="mailto:johnny@jayefive.io">
+          <span class="d-none d-md-inline">Email </span><i class="far fa-envelope"></i></a></div>
+      </div>
+      <div class="d-flex flex-row">
+        <div class="p-2"><a href="tel:+1-406-471-2075"><i class="fas fa-mobile-alt"></i> 406.471.2075</a></div>
+      </div>
+    </header>
+    
+    <main role="main">
+      <div class="row mt-4">
+        <div class="col-12 col-md-6">
+          <section class="title-section">
+            <h1 class="title-name">John Olson</h1>
+            <h6>Software Developer &#8212 Portland, OR</h6>
+          </section>
+        </div>
+        <!--<div class="col-12 col-md-4">-->
+        <!--  <img src="../img/profile.png" class="img-fluid" alt="profile picture">-->
+        <!--</div>-->
+        <!--<div class="col-md-2"></div>-->
+      </div>
+      
+      <hr class="full-rule">
+      
+      <div class="row">
+        <div class="col-12 col-md-8">
+          <section>
+            <h4 class="text-uppercase">Experience Summary</h4>
+            <ul class="experience-bullets">
+              <li>
+                .NET Framework/Core experience using C# in Visual Studio to build, for example, 
+                a live presentation layer for customers to see their marketing campaigns before 
+                publishing them live to the webapp.
+              </li>
+              <li>
+                JavaScript full stack experience wiring together UX with NoSQL database using Node.js 
+                and the Express/Mongoose frameworks. 
+              </li>
+            </ul>
+          </section>
+        </div>
+        <div class="col-12 col-md-4">
+          <section>
+            <h4 class="text-uppercase">Skills Summary</h4>
+            <span class="skill font-weight-bold">Language:</span>
+            <span>C#, JavaScript, HTML, CSS</span><br>
+            <span class="skill font-weight-bold">Framework:</span>
+            <span>.NET, Express, Mongoose</span><br>
+            <span class="skill font-weight-bold">Library:</span>
+            <span>Node.js, knockout.js</span><br>
+            <span class="skill font-weight-bold">Database:</span>
+            <span>SQL, MongoDB</span>
+          </section>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-8">
+          <section>
+            <h4 class="text-uppercase">Experience</h4>
+            <h5><span class="font-weight-bold">JayeFive Game Dev</span>, Portland, OR 
+              <span class="font-italic">&#8212 Game Developer/Founder</span></h5>
+            <span class="text-uppercase">July 2018 &#8212 Present</span>
+            <p>C# scripting in the Unity Engine reverse engineering a mobile game named Missiles!. I 
+               recruited an artist to develop an art layer to lay on top of new game mechanics. Actively 
+               planning towards publishing by next summer.</p>
+            <h5><span class="font-weight-bold">Prosper IT Consulting</span>, Portland, OR 
+              <span class="font-italic">&#8212 Intern</span></h5>
+            <span class="text-uppercase">May 2018</span>
+            <p>Two week sprint working on a piece of online marketing software. I was tasked with 
+               implementing an MVVM pattern using knockout.js within the MVC architecture.</p>
+            <h5><span class="font-weight-bold">J. Olson Contracting</span>, Whitefish, MT
+              <span class="font-italic">&#8212 Owner</span></h5>
+            <span class="text-uppercase">May 2013 &#8212 December 2017</span>
+            <p>Carpentry business that began as a two man team while I was learning to use a saw. 
+               We grew the business into an eight man team and my personal networking at the lumber 
+               yard and endless nights of studying material costs and building techniques helped us 
+               to nearly double our income by the second year.</p>
+          </section>
+        </div>
+        <div class="col-12 col-md-4">
+          <section>
+            <h4 class="text-uppercase">Projects</h4>
+            <h5><span class="font-weight-bold">Center for Diabetes Excellence, Monroe, CT </span></h5>
+            <span class="font-italic">&#8212 Freelance Web Design</span>
+            <p>Bootstrap front-end, Google Maps API and phpmailer. Mobile first design.</p>
+            <a href="https://www.cde-ct.com">https://www.cde-ct.com</a>
+            <br><br>
+            <h5><span class="font-weight-bold">Yelp Camp Clone</span></h5>
+            <span class="font-italic">&#8212 Full-Stack project</span>
+            <p>Mock up of Yelp, but for campsites. User auth and persistent data.</p>
+            <a href="https://cryptic-inlet-54577.herokuapp.com/">Live</a>
+            <span>&nbsp &nbsp &nbsp &nbsp</span>
+            <a href="https://github.com/JayeFive/yelp-clone-camping">Repo</a>
+          </section>
+        </div>
+      </div>
+      
+    </main>
+    
+  
+  
+  
+  
+  
+  </div>
+  
+  
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
